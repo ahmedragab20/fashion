@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Fashions</title>
+  </head>
+  <body>
+    <!--To Top Button-->
+    <div class="to-top">
+      <a href="#">top</a>
+    </div>
+    <!-- The Header -->
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./images/icons/logo.svg" />
+        </div>
+        <div class="burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul class="list">
+          <li>Home</li>
+          <li>Shope</li>
+          <li>Models</li>
+          <li>Fashions</li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <div class="content">
+          <div class="headline">
+            <hr />
+            <h1>You'll Find Your Soul Here</h1>
+            <hr />
+          </div>
+          <div class="buttons">
+            <button class="black">Descover?</button>
+            <button class="white">Ride?</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- The Sale Slider -->
+    <section class="sale-slider mt-5">
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/sale-slider-1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/sale-slider-2.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="content">
+        <h2>Sale</h2>
+        <span>Lorem ipsum dolor sit amet consectetur.</span>
+      </div>
+    </section>
+    <!-- The Poster Article -->
+    <article class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 order-lg-last">
+            <div class="image mb-5">
+              <img src="./images/poster.jpg" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="content">
+              <h2>
+                Dolorem <br> voluptatum
+              </h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, eos? Nam, hic dignissimos fugiat necessitatibus doloremque tenetur eligendi earum. Doloremque voluptatum error ipsa repudiandae illo exercitationem recusandae delectus dolor impedit.</p>
+              <div class="buttons">
+                <button class="black">Descover?</button>
+                <button class="white">Ride?</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- The Footer -->
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <img src="./images/icons/logo.svg" />
+          <h2>Fashion</h2>
+          <div class="col-sm-3 col-xs-6">
+            <a href="#">ipsum</a>
+            <a href="#">Lorem</a>
+            <a href="#">dolor</a>
+            <a href="#">aspernatur</a>
+          </div>
+          <div class="col-sm-3 col-xs-6">
+            <a href="#">assumenda</a>
+            <a href="#">iste</a>
+            <a href="#">consectetur</a>
+            <a href="#">ducimus</a>
+          </div>
+          <div class="col-sm-3 col-xs-6">
+            <a href="#">adipisicing</a>
+            <a href="#">quibusdam</a>
+            <a href="#">sit</a>
+            <a href="#">aspernatur</a>
+          </div>
+          <div class="col-sm-3 col-xs-6">
+            <a href="#">magnam</a>
+            <a href="#">assumenda</a>
+            <a href="#">recusandae</a>
+            <a href="#">elit</a>
+          </div>
+        </div>
+      </div>
+      <h6 class="mt-5">CREATED BY AHMED RAGAB 2021</h6>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Swiper.js settings -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        loop: true,
+      });
+    </script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
